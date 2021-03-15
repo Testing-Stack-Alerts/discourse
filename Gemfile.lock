@@ -237,7 +237,7 @@ GEM
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
     oj (3.11.2)
-    omniauth (1.9.6)
+    omniauth (1.9.5)
       hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
     omniauth-facebook (8.0.0)
@@ -334,7 +334,7 @@ GEM
       chunky_png (~> 1.0)
       rqrcode_core (~> 0.2)
     rqrcode_core (0.2.0)
-    rspec (3.10.1)
+    rspec (3.10.2)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
       rspec-mocks (~> 3.10.0)
@@ -405,7 +405,7 @@ GEM
       activesupport (>= 3.1)
     shoulda-matchers (4.5.1)
       activesupport (>= 4.2.0)
-    sidekiq (7.1.4)
+    sidekiq (5.1.4)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
@@ -538,7 +538,6 @@ DEPENDENCIES
   pg
   pry-byebug
   pry-rails
-  puma
   r2
   rack
   rack-mini-profiler
